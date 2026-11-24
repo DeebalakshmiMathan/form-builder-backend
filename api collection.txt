@@ -1,0 +1,25 @@
+         Discription         Method    Link
+To check Api connection :     Get        http://localhost:5000/api/health
+
+login                   :     Post       http://localhost :5000/api/auth/login
+
+get all forms           :     Get        1. http://localhost:5000/api/forms
+	                                 2.http://localhost:5000/api/forms?page=1&limit=10
+
+get form by id          :     Get         http://localhost:5000/api/forms/{formID}
+
+post form details       :     Post        http://localhost:5000/api/forms/{formID}
+
+update form data        :     Put         http://localhost:5000/api/forms/{formID}
+
+delete form data        :     Delete      http://localhost:5000/api/forms/{formID}
+
+submit form             :     Post        http://localhost:5000/api/forms/{formID}/submissions
+
+Get Submitted data      :     GET         http://localhost:5000/api/forms/{formID}/submissions?page=1&limit=10
+
+
+need to send JWT toke as a Bearer token for all url except login
+
+
+
